@@ -1,8 +1,8 @@
 :root {
-  /* Colours */
-  --color-bg: #cfceca; /* page background /*
+  /* Background color */
+  --color-bg: #cfceca;
 
-  /* Header */
+  /* Header background color */
   --color-head-bg: #625e5c;
 
   /* Logotype */
@@ -14,23 +14,31 @@
   --color-menu-bg: #5a5b5e;
   /* Links */
   --color-link-bg: #78766e;
-  --color-link-hover: #fff; /* used */
-  --color-link-active: #99958f; /* used */
+  --color-link-hover: #fff;
+  --color-link-active: #99958f;
   --border-radius-links: 1px;
 
-  /* Headlines og rubrik */
+  /* Headlines (size)*/
   --font-h1-size: 1rem;
-  --font-sub1-size: 1rem;
   --font-h2-size: 1rem;
   --font-h3-size: 1rem;
+
+  --headline2-size: 1rem;
+  --headline3-size: 1rem;
+  --font-sub1-size: 1rem;
+
+  /* Headlines (text and background color) */
   --color-headline-bg: #4b4545;
   --color-headline-text-page: #42413d;
 
-  /* Tekst */
+  /* Rubrik tekst */
   --color-text: #000;
   --color-text-inverted: #cdccc4;
 
-  /*  Marginer */
+  /* Andet tekst */
+  --followup-text-size: 1rem;
+
+  /*  Margins */
   --margin-head-bottom: 5px;
 
   /* Borders */
@@ -45,24 +53,14 @@
   --color-cta-newscard-bg: #787473;
   --color-cta-newscard-bg-inverted: #7b7d83;
 
-  /* Fonts */
+  /* Fonts & font weights*/
   --font-family-sans: ui-sans-serif;
-  /* --font-weight-light: 300;
-  --font-weight-regular: 400;
+  --font-weight-bold: 700;
   --font-weight-medium: 500;
-  --font-weight-bold: 700; */
+  --font-weight-regular: 300;
+  --font-weight-light: 200;
 
-  /* Text sizes */
-  --logotype-size: 1rem;
-  --headline1-size: 2rem;
-  --headline2-size: 1rem;
-  --headline3-size: 1rem;
-  --bodytext-size: 1rem;
-  --cta-text-size: 1rem;
-  --followup-text-size: 1rem;
-  --form-submit-size: 1rem;
-
-  /* Infographics */
+  /* Infographics background colors*/
   --color-info-bg: #676161;
   --color-infobox-1-bg: #cfcec6;
   --color-infobox-2-bg: #969995;
