@@ -42,6 +42,7 @@ header nav > * {
 nav ul {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 header ul {
   height: 100%;
