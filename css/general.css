@@ -10,6 +10,7 @@ body {
 }
 header {
   height: min-content;
+  background-color: var(--color-head-bg);
 }
 #main-disclamer {
   height: 225px;
@@ -117,6 +118,10 @@ nav a:active {
 }
 
 /* FOOTER */
+footer {
+  background-color: var(--color-head-bg);
+}
+
 footer a {
   font-size: 0.7rem;
 }
