@@ -14,7 +14,7 @@
   line-height: 3rem;
   text-align: center;
   background-color: var(--color-headline-bg);
-  color: var(--color-headline-text-page);
+  color: var(--color-text);
   margin-bottom: 1rem;
 }
 .info-text h3 {
@@ -35,8 +35,8 @@
 }
 .info-box {
   padding: 1.5rem 1rem 0.5rem 1rem;
-  background-color: var(--color-infobox-1-bg);
+  background-color: var(--color-card-bg);
 }
 .info-box:nth-of-type(2n) {
-  background-color: var(--color-infobox-2-bg);
+  background-color: var(--color-card-bg-inverted);
 }
