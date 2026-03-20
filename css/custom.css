@@ -27,11 +27,10 @@
   --headline3-size: 1rem;
   --font-sub1-size: 1rem;
 
-  /* Headlines (text and background color) */
+  /* Headlines (color) */
   --color-headline-bg: #4b4545;
-  --color-headline-text-page: #42413d;
 
-  /* Rubrik tekst */
+  /* Tekst */
   --color-text: #000;
   --color-text-inverted: #cdccc4;
 
@@ -45,13 +44,10 @@
   --border-radius: 5px;
 
   /* Cards */
-  --color-card-bg: #8a8585;
-  --color-cta-card-bg: #d5d2d0;
-  /* news-cards */
-  --color-news-bg: #dbdad4;
-  --color-news-bg-inverted: #585a5e;
-  --color-cta-newscard-bg: #787473;
-  --color-cta-newscard-bg-inverted: #7b7d83;
+  --color-card-bg: #e3e1d8;
+  --color-card-bg-inverted: #4d4e4f;
+  --color-cta-card-bg: #847f7e;
+  --color-cta-card-bg-inverted: #c0bfb9;
 
   /* Fonts & font weights*/
   --font-family-sans: ui-sans-serif;
@@ -62,6 +58,4 @@
 
   /* Infographics background colors*/
   --color-info-bg: #676161;
-  --color-infobox-1-bg: #cfcec6;
-  --color-infobox-2-bg: #969995;
 }
